@@ -1,0 +1,23 @@
+.main-header {
+    background-color: var(--nav-background-color);
+    height: 6rem;
+    width: 100vw;
+  
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    padding: 0 1rem;
+    z-index: 5;
+}
+
+
+
+@media (min-width: 768px) {
+  .main-header {    
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,7 @@
+.products-page__container {
+    padding: 8rem 1rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

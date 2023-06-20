@@ -1,0 +1,67 @@
+:root {
+  --nav-app-backlground-color: #fff;
+
+  --nav-background-color: #c1121f;
+  --nav-link-color: #fdf0d5; 
+  --nav-link-hover-color: #003049;
+  --nav-link-hover-background-color: #fdf0d5;
+  --nav-border-color: #fdf0d5;
+  --nav-logo-heading-color: #fdf0d5;
+  --nav-menu-btn-color: #fdf0d5;
+
+  --hompagepage--text-color: #fff;
+  --homepage-logo-color: #c1121f;
+
+  --sidedraw-background-color: #c1121f;
+  --sidedraw-close-btn-color: #fdf0d5;
+
+  --card-farm-color: #000;
+  --card-farm-background-color: #fff;
+  --card-farm-onhover-background-color: #c1121f;
+  --card-farm-onhover-color: #fdf0d5;
+
+  --card-product-color: #000;
+  --card-product-background-color: #fff;
+  --card-product-onhover-background-color: #c1121f;
+  --card-product-onhover-color: #fdf0d5;
+
+  --product-pg-header-title-color: #fff;
+
+  --selected-pg-header-title-color: #fff;
+  --selected-pg-icon-color: #c1121f;
+
+  --auth-page-background-color: #fff;
+  --auth-page-card-background-color: #c1121f;
+  --auth-page-card-color: #fdf0d5;
+  
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--nav-app-backlground-color);
+}
+
+
+main {
+  margin-top: 5rem;
+}
+
+li{
+  list-style: none;
+}

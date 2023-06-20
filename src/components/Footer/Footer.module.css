@@ -1,0 +1,17 @@
+.footer__container-main {
+    background-color: #000;
+    width: 100vw;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px; */
+}
+
+.footer__content {
+    color: #fff;
+}
